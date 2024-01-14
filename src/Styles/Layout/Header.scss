@@ -42,9 +42,9 @@
     width: 90% ;
     padding-inline: 0%;
 
-    img {
-        
-       width: 6vw;
+    .nav_logo {
+        width: 20% !important;
+    //    width: 6vw;
     }
 
     nav {
@@ -68,13 +68,6 @@
                 // cursor: pointer;
                 padding-bottom: 1px;
 
-                // &:has(.active) {
-                //     color: var(--primary);
-                //     opacity: 1 !important;
-                //     font-weight: bold;
-
-
-                // }
 
                 &:last-child {
                     display: flex;justify-content: center; align-items: center;
@@ -101,7 +94,6 @@
             }
         }
     }
-
 }
 
 .Translate,
@@ -202,7 +194,7 @@
 @media screen and (max-width: 900px) {
   
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .Doctors_Page .Header ,.Header.Scrolled {
         background-color:transparent !important;
         @include Shadow;

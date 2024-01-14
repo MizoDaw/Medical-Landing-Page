@@ -10,7 +10,8 @@ const data = [
     h1: 'Medical',
     h2: 'Laboratory',
     info: '1Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, odio. lorem Nam, odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, odio. lorem',
-  },
+  }
+  ,
   {
     image: '2',
     h1: 'Diagnostic',
@@ -54,7 +55,7 @@ const NewHeroSection = () => {
     setInfoData(data[index]);
     setKey(index);
   };
-
+  const moaz = (window.innerWidth = 500);
 
   return (
     <>

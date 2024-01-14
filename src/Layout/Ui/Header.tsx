@@ -43,7 +43,7 @@ const Header = () => {
 
   return (
     <header className='Header'>
-      <Link to={'/'} > <img src="../Logo.png" alt="" /></Link>
+      <Link to={'/'} > <img className='nav_logo' src="../Logo.png" alt="" /></Link>
       <nav>
         <ul className='Links'>
           <li> <a href='/#NewHeroSection'>{t('Home')}</a> </li>
